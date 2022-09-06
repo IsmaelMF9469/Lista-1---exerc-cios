@@ -1,0 +1,18 @@
+programa 
+{
+	funcao inicio()
+	{
+      inteiro anos,meses,dias,total
+	  
+	  escreva("\n Quantos anos você tem? ")
+	  leia(anos)
+	  escreva("\n Quantos meses você tem? ")
+	  leia(meses)
+	  escreva("\n Quantos dias você tem? ")
+	  leia(dias)
+	  
+	  total=(anos*365)+(meses*30)+dias
+	  
+	  escreva("\n Voce tem ",total," dias ")
+	}
+}

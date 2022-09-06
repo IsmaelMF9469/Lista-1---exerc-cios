@@ -1,0 +1,17 @@
+programa
+{
+	inclua biblioteca matemática 
+	funcao inicio ()
+	{
+	   inteiro c,p,p2,d
+	   
+	   escreva(" Qual o valor do primeiro ponto")
+	   leia(p)
+	   escreva(" Qual o valor do segundo ponto ")
+	   leia(p2)
+	   
+	   
+    }
+}
+	}
+}

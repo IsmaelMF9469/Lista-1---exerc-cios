@@ -1,0 +1,20 @@
+programa 
+{
+	funcao inicio()
+	{
+    
+      inteiro dias,meses,anos 
+	  
+	  escreva("\n Quantos dias de idade voce tem? ")
+	  leia(dias)
+	  
+	  anos= dias/365
+	  meses= (dias/30)/30
+	  dias= (dias/30)
+	  
+	  escreva("\n Voce tem ",anos," anos")
+	  escreva("\n",meses," meses")
+	  escreva("\n",dias, " dias")
+	}
+	}
+}

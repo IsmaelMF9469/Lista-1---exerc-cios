@@ -1,0 +1,31 @@
+programa
+{
+	funcao inicio ()
+	{
+	   inteiro A,B,C,D,E,F,X,Y
+    
+    escreva("Qual o valor de A? ")
+    leia(A)
+    escreva("Qual o valor de B? ")
+    leia(B)
+    escreva("Qual o valor de C? ")
+    leia(C)
+    escreva("Qual o valor de D? ")
+    leia(D)
+    escreva("Qual o valor de E? ")
+    leia(E)
+    escreva("Qual o valor de F? ")
+    leia(F)
+    
+    X= ((C*E)-(B*F))/((A*E)-(B*D))
+    Y= ((A*F)-(C*D))/((A*E)-(B*D))
+    
+    C=(A*X)+(B*Y)
+    F=(D*X)+(E*Y)
+    
+    escreva("\n O valor de X é: ",X )
+    escreva("\n O valor de Y é: ",Y )
+    }
+}
+	}
+}

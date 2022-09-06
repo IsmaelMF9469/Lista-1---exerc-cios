@@ -1,0 +1,19 @@
+programa 
+{
+	funcao inicio()
+	{
+    
+      inteiro segundos,horas,minutos
+	  
+	  escreva("\n Duração do evento: ")
+	  leia(segundos)
+	  
+	  horas = segundos/3600
+	  minutos = (segundos/60)/60
+	  segundos = (segundos/60)
+	  
+	  escreva("\n O evento durou ",horas," horas")
+	  escreva("\n", minutos,"minutos")
+	  escreva("\n", segundos,"segundos")
+	}
+}

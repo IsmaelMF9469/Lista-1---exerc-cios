@@ -1,0 +1,18 @@
+programa
+{
+	funcao inicio ()
+	{
+	  real cF,pD,i,cC
+	  
+	  escreva("Custo de fábrica: ")
+	  leia(cF)
+	  
+	  pD = (28 * cF)/100
+	  i = (45 * cF)/100
+	  cC = cF + pD + i
+	   
+	  escreva("\n O custo do consumidor será: ", cC)
+    }
+}
+	}
+}
